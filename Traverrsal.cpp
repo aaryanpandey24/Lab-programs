@@ -1,14 +1,15 @@
 #include<iostream>
-using namespace std
-void Traversal(vector<int> &arr)
+#include <vector>
+using namespace std;
+int Traversal(vector<int> &arr)
 {
-    for (int i = 0; i < arr.size; i++)
+    for (int i = 0; i < arr.size(); i++)
     {
         /* code */
         cout<< arr[i];
         cout<< "\n";
     }
-    
+    return 0;
 }
 
 
