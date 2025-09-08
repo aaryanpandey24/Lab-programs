@@ -5,7 +5,7 @@ int Traversal(vector<int> &arr)
 {
     for (int i = 0; i < arr.size(); i++)
     {
-        /* code */
+       
         cout<< arr[i];
         cout<< "\n";
     }
